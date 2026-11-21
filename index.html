@@ -1,1 +1,102 @@
 
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOVA CLIENT</title>
+<style>
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  background:#090909;
+  color:white;
+  font-family:Arial,sans-serif;
+  text-align:center;
+}
+header {
+  padding:25px;
+  border-bottom:1px solid #401018;
+}
+.logo {
+  font-size:36px;
+  font-weight:900;
+  font-style:italic;
+}
+.logo span { color:#ff1938; }
+.hero { padding:100px 20px; }
+h1 { font-size:55px; margin:0; }
+h1 span { color:#ff1938; }
+p { color:#bbb; line-height:1.7; }
+.download {
+  display:inline-block;
+  margin-top:25px;
+  padding:16px 45px;
+  background:#ed102d;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  border-radius:8px;
+}
+.download:hover { background:#ff4055; }
+.features {
+  max-width:850px;
+  margin:20px auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:15px;
+  padding:20px;
+}
+.card {
+  background:#171717;
+  border:1px solid #48121c;
+  border-radius:12px;
+  padding:25px;
+}
+footer {
+  padding:30px;
+  color:#777;
+  border-top:1px solid #401018;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">NOVA <span>CLIENT</span></div>
+</header>
+
+<section class="hero">
+  <h1>WELCOME TO <span>NOVA</span></h1>
+  <p>PLAY YOUR WAY. EXPERIENCE THE NOVA.</p>
+  <p>Il nuovo progetto Minecraft con stile nero e rosso.</p>
+  <a class="download" href="#features">SCOPRI NOVA</a>
+  <p>VERSIONE IN SVILUPPO</p>
+</section>
+
+<section class="features" id="features">
+  <div class="card">
+    <h2>⚔ PvP HUD</h2>
+    <p>Keystrokes, CPS, FPS, Ping e Armor HUD.</p>
+  </div>
+  <div class="card">
+    <h2>🎨 CUSTOM CAPE</h2>
+    <p>Personalizza il tuo stile NOVA.</p>
+  </div>
+  <div class="card">
+    <h2>🎙 VOICE CHAT</h2>
+    <p>Chat vocale e stanze private Gang Voice.</p>
+  </div>
+  <div class="card">
+    <h2>⛏ MINECRAFT</h2>
+    <p>Progetto per Minecraft 1.8.9 e 1.20.1.</p>
+  </div>
+</section>
+
+<footer>
+  NOVA CLIENT © 2026 · FREE PROJECT
+  <p>Client in sviluppo. Download non ancora disponibile.</p>
+</footer>
+
+</body>
+</html>
